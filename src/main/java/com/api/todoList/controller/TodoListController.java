@@ -65,6 +65,7 @@ public class TodoListController {
 
 				response.setTodo_title(todo_title);
 				response.setCreated_time(todoList.getCreated_time());
+				response.setUpdated_time(todoList.getUpdated_time());
 				response.setIsMarked(todoList.getIsMarked());
 				todoResponse.setStatus(SUCCESS_STATUS);
 				todoResponse.setCode(SUCCESS_CODE);
